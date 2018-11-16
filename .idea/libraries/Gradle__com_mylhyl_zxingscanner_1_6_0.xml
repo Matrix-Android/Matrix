@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mylhyl:zxingscanner-1.6.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/zxingscanner-1.6.0.aar/17ed9a400161d66d35af7edd0db70dca/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/zxingscanner-1.6.0.aar/17ed9a400161d66d35af7edd0db70dca/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mylhyl/zxingscanner/1.6.0/eebd098800133198c5cf9ab75ac7af6cea45df9/zxingscanner-1.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

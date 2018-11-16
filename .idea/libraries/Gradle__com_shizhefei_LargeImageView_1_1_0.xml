@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.shizhefei:LargeImageView-1.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/LargeImageView-1.1.0.aar/376dc77e5e4d089444017107fa007157/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/LargeImageView-1.1.0.aar/376dc77e5e4d089444017107fa007157/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.shizhefei/LargeImageView/1.1.0/36d7a26c01e829f9cbece6c96b426c039be7bf3c/LargeImageView-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
