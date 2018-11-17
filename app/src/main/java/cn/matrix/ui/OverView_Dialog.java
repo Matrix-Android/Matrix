@@ -43,7 +43,7 @@ public class OverView_Dialog extends Dialog {
         p.width = (int)(d.getWidth()*0.6);
         dialogWindow.setAttributes(p);
 
-        this.setCancelable(true);
+        this.setCancelable(false);
         close_bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

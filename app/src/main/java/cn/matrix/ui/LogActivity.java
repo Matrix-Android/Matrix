@@ -102,7 +102,6 @@ public class LogActivity extends AppCompatActivity implements View.OnClickListen
 
         //set Listeners
         logIn_button.setOnClickListener(this);
-        scanLog_button.setOnClickListener(this);
         clear_name.setOnClickListener(this);
         clear_pw.setOnClickListener(this);
         see_pw.setOnClickListener(this);
@@ -152,11 +151,11 @@ public class LogActivity extends AppCompatActivity implements View.OnClickListen
                 if(isEyeOpen == true){
                     //password can be seen
                     isEyeOpen = false;
-                    see_pw.setBackgroundResource(R.mipmap.ic_eye);
+                    see_pw.setBackgroundResource(R.drawable.ic_eye);
                     pw_editText.setTransformationMethod(PasswordTransformationMethod.getInstance());
                 }else{
                     isEyeOpen = true;
-                    see_pw.setBackgroundResource(R.mipmap.ic_eye2);
+                    see_pw.setBackgroundResource(R.drawable.ic_eye2);
                     pw_editText.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
                 }
                 break;

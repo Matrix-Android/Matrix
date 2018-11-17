@@ -1,14 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:background="#515151"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_width="@dimen/mipmap_size_big"
+            android:layout_height="@dimen/mipmap_size_big"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:layout_marginBottom="@dimen/margin_big"
+            android:background="@mipmap/ic_launcher" />
+
+
+        <ImageButton
+            android:layout_width="@dimen/mipmap_size_big"
+            android:layout_height="@dimen/mipmap_size_big"
+            android:layout_margin="@dimen/margin_normal"
+            android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新建节点"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_normal" />
+
+        <ImageButton
+            android:layout_width="@dimen/mipmap_size_big"
+            android:layout_height="@dimen/mipmap_size_big"
+            android:layout_margin="@dimen/margin_normal"
+            android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="撤销"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_normal" />
+
+        <ImageButton
+            android:layout_width="@dimen/mipmap_size_big"
+            android:layout_height="@dimen/mipmap_size_big"
+            android:layout_margin="@dimen/margin_normal"
+            android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_normal" />
+
+        <ImageButton
+            android:layout_width="@dimen/mipmap_size_big"
+            android:layout_height="@dimen/mipmap_size_big"
+            android:layout_margin="@dimen/margin_normal"
+            android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="清楚所有"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_normal" />
+
+
+        <ImageButton
+            android:layout_width="@dimen/mipmap_size_big"
+            android:layout_height="@dimen/mipmap_size_big"
+            android:layout_margin="@dimen/margin_normal"
+            android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上传"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_normal" />
+    </LinearLayout>
 
 
     <com.shizhefei.view.largeimage.LargeImageView
         android:id="@+id/imageView"
-        android:scrollbars="vertical|horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:scrollbars="vertical|horizontal" />
 
-</RelativeLayout>
+
+</LinearLayout>
