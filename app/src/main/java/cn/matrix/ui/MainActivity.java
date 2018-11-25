@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 replaceFragment(mRightFragment);
                 break;
             case R.id.button2:
-                replaceFragment(mTodoFragment);
+                replaceFragment (mTodoFragment);
                 break;
             case R.id.button3:
                 break;
